@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Codename</h1>
+    <h1>Codenames</h1>
     <form @submit.prevent="createNewRoom">
       <p>Create new room</p>
       <button type="submit">Create</button>

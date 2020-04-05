@@ -1,5 +1,6 @@
-# codename
-Codename game web app
+# codenames
+Codenames game web app \
+[https://playcodenames.netlify.com][https://playcodenames.netlify.com/]
 
 ## TODOLIST
 
@@ -55,3 +56,8 @@ npm run build
 ```
 npm run lint
 ```
+
+
+[https://codenamegame.netlify.com/]: https://codenamegame.netlify.com/
+
+[https://playcodenames.netlify.com/]: https://playcodenames.netlify.com/
