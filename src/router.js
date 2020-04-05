@@ -19,6 +19,12 @@ export default new Router({
       name: 'room',
       component: Room,
       props: true
+    },
+    {
+      path: '*',
+      redirect: {
+        name: 'home'
+      }
     }
   ]
 })

@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+
 <style scoped lang="less">
 .app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
