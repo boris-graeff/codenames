@@ -13,13 +13,13 @@
 import words from '@/mock/words'
 import BoardCard from '../components/boardCard'
 
-const getRandomIndex = limit => Math.floor(Math.random() * (limit+1))
+const getRandomIndex = limit => Math.floor(Math.random() * (limit + 1))
 
 const generateBoard = () => {
   const board = {}
   board.cards = []
 
-  for (let i = 0; i<25; ++i) {
+  for (let i = 0; i < 25; ++i) {
     board.cards.push({
       word: words[getRandomIndex(words.length)]
     })
@@ -27,19 +27,18 @@ const generateBoard = () => {
   return board
 }
 
-
 export default {
   props: {
     slug: {
       type: String
     }
   },
-  data() {
+  data () {
     return {
       board: generateBoard()
     }
   },
-  created() {
+  created () {
     // TODO fetch game data
   },
   components: {
