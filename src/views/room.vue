@@ -51,9 +51,12 @@ export default {
 .board {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
 
   > * {
-    width: 20%;
+    width: calc(20% - 12px);
+    margin: 6px;
   }
 }
 </style>

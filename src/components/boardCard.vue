@@ -17,9 +17,16 @@ export default {
 
 <style scoped lang="less">
 .card {
-  padding: 20px;
+  height: 12vh;
   text-align: center;
-  border: 1px solid;
   border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background: white;
+  box-shadow: 0 3px 9px -5px grey;
 }
 </style>
